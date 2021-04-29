@@ -1,0 +1,27 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.226)),
+    url("../../public/assets/hero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.hero  .header {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.hero .header .nav{
+    list-style-type: none;
+    display: flex;
+}
+
+.hero .header .nav li{
+    margin-right:2em ;
+    
+}
