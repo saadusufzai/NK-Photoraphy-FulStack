@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
         <div className={styles.header}>
-            <div className={styles.logo}><h3>NK Photography</h3></div>
+            <div className={styles.logo}><h2>NK Photography</h2></div>
             <ul className={styles.nav}>
                 <li>
                     <a href="">Home</a>
@@ -26,6 +26,11 @@ const Hero = () => {
                 </li>
                 </ul>
         </div>
+
+      <div className={styles.box}>
+        <h1>NK Production House</h1>
+      </div>
+
     </div>
   )
 }
