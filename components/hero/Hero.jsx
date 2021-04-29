@@ -1,11 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
-import styles from './Header.module.css'
-const Header = () => {
-    return (
+import styles from './Hero.module.css'
+const Hero = () => {
+  return (
+    <div className={styles.hero}>
         <div className={styles.header}>
             <div className={styles.logo}><h3>NK Photography</h3></div>
-            <ul>
+            <ul className={styles.nav}>
                 <li>
                     <a href="">Home</a>
                 </li>
@@ -26,7 +26,8 @@ const Header = () => {
                 </li>
                 </ul>
         </div>
-    )
+    </div>
+  )
 }
 
-export default Header
+export default Hero
