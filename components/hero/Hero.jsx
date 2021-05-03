@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
         <div className={styles.header}>
-            <div className={styles.logo}><h2>NK Photography</h2></div>
+            <div className={styles.logo}><h2>NK Production House</h2></div>
             <ul className={styles.nav}>
                 <li>
                     <a href="">Home</a>
