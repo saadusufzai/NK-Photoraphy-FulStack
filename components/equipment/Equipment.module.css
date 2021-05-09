@@ -1,0 +1,22 @@
+.equipment{
+    margin-top: 2em;
+    text-align: center;
+   }
+   .equipment h1{
+       margin: 2em;
+   }
+.equipment .grid{
+   width: 85%;
+    margin: 0 auto;
+    display:grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+
+}
+
+.equipment .grid .box{
+    width: 300px;
+    height: auto;
+    box-shadow: 1px 1px 10px #000;
+}

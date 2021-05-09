@@ -18,7 +18,7 @@ const Media = () => {
     setViewerIsOpen(false);
   };
   return (
-    <div style={{width:'90%', margin:'0 auto'}} className={classes.media}>
+    <div style={{width:'95%', margin:'0 auto'}} className={classes.media}>
         <h1 className={classes.text}>Our Work</h1>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>

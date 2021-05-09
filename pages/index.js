@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Contact from '../components/contact/Contact'
 import Equipment from '../components/equipment/Equipment'
 import Media from '../components/gallery/Media'
 import Hero from '../components/hero/Hero'
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero/>
       <Media/>
       <Equipment/>
+      <Contact/>
     </div>
   )
 }
