@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Contact from '../components/contact/Contact'
+import Contact from '../components/contact/ContactForm'
 import Equipment from '../components/equipment/Equipment'
+import Footer from '../components/footer/Footer'
 import Media from '../components/gallery/Media'
 import Hero from '../components/hero/Hero'
 import styles from '../styles/Home.module.css'
@@ -18,6 +19,7 @@ export default function Home() {
       <Media/>
       <Equipment/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

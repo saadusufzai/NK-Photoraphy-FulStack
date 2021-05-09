@@ -16,7 +16,23 @@
 }
 
 .equipment .grid .box{
-    width: 300px;
-    height: auto;
+    width: 310px;
+    height: 210px;
+    padding: 10px;
+    transition: padding 200ms;
+}
+.equipment .grid .box img{
+    display: block;
     box-shadow: 1px 1px 10px #000;
+}
+.equipment .grid .box:nth-child(1):hover{
+    padding: 5px;
+}
+.equipment .grid .box:nth-child(2):hover{
+    padding: 5px;
+}
+
+.equipment .grid .box:nth-child(3):hover{
+    padding: 5px;
+
 }
